@@ -9,15 +9,16 @@ Feel free to download our project and adapt it according to your needs.
 
 Within the download you'll find the following directories and files:
 
+```
 Kit
-├── assets
-│   ├── images
-│   ├── fonts
-├── .gitattributes
+├── addons
+│   ├── EXPORT
+│   ├── 2
 ├── css.css
 ├── sketch.js
 ├── p5.min.js
 └── index.html
+```
 
 ## Useful Links
 
