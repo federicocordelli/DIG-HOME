@@ -142,7 +142,11 @@ function setup() {
  buttonL.addClass('button23');
 */
 
-
+//Button To Reset
+button = createButton('OPEN SOURCE');
+button.position(width-200, height-70);
+button.mouseClicked(sourcy);
+button.addClass('button');
 
 }
 
@@ -457,6 +461,10 @@ function sheppy() {
 
 }
 
+function sourcy() {
+  window.open("https://github.com/federicocordelli/DIG-HOME");
+
+}
 function mouseWheel(event) {
   print(event.delta);
 
