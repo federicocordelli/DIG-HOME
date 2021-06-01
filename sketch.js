@@ -170,7 +170,14 @@ function draw() {
 
 
 
-
+  push();
+    fill('black');
+    textAlign(CENTER);
+    textFont(corpusFont);
+    textSize(10);
+    //text(karma, width/2, height/2);
+    text("SCROLL DOWN", width/2, 50);
+  pop();
 
 
 
