@@ -143,10 +143,10 @@ function setup() {
 */
 
 //Button To Reset
-button = createButton('OPEN SOURCE');
-button.position(width-200, height-70);
-button.mouseClicked(sourcy);
-button.addClass('button');
+buttonOS = createButton('OPEN SOURCE');
+buttonOS.position(width-200, height-70);
+buttonOS.mouseClicked(sourcy);
+buttonOS.addClass('button');
 
 }
 
